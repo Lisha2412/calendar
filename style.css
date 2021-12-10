@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body
+{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+
+    margin: 0;
+    width: 2335px;
+    height: 1796px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+  
+.schedule
+{
+    width: 1535px;
+    margin-left: 142px;
+}
+.head
+{
+    max-width: 1255px;
+    height: 214px;
+    display: flex;
+   flex-grow: 1;
+   flex-shrink: 0;
+   align-items: flex-start;
+   align-items: center;
+   justify-content: space-between;
+
+   border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #F3F3F3;
+
+    font-size: 36px;
+    color: #243D6F;
+}
+.space
+{
+    flex-basis: 60%;
+}
+.date img
+{
+    width: 37px;
+    height: 37px;
+}
+
+.time
+{
+    margin-top: 102px;
+    width: 1255px;
+    height: 1381px;
+    list-style-type: none;
+    padding-left: 0pt;
+    font-size: 26px;
+    line-height: 30px;
+    color: #A4B0C3;
+  }
+li
+{
+height: 110px;
+}
+li div
+{
+    left: 135px;
+    font-size: 28px;
+    text-indent: 70px;
+    color: #243D6F;
+}
+li .border
+{
+    position: relative;
+    bottom: 15px;
+    width: 1120px;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #979797;
+    opacity: 0.3;
+  }
+
+  .violet
+  {
+    position: relative; 
+    top: -17px; 
+    width: 1115px;
+    height: 110px;  
+    line-height: 124px;  
+
+    background: rgba(133, 118, 237, 0.15);
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: #8576ED;
+  }
+  .blue
+  {
+    position: relative; 
+    top: -17px; 
+    width: 1115px;
+    height: 280px; 
+    line-height: 280px;   
+
+    background: rgba(61, 131, 249, 0.15);
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: #3D83F9;
+  }
+  .orange
+  {
+    position: relative; 
+    top: -17px; 
+    width: 1115px;
+    height: 222px; 
+    line-height: 222px;   
+
+    background: rgba(238, 165, 124, 0.15);
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: #EEA57C;
+  }
+  .calendar
+  {
+    right: 0px;
+    top: 0px;
+    width: 802px;
+    height: 1795px;
+    background: rgba(42, 46, 65, 0.7);
+    color: #FFFFFF;
+  }
+
+  .today
+  {
+    max-width: 600px;
+    margin-left: 100px;
+    /* margin-top: 84px; */
+    height: 212px;
+    display: flex;
+   flex-grow: 1;
+   flex-shrink: 0;
+   align-items: flex-start;
+   align-items: center;
+   justify-content: space-between;
+
+   font-size: 36px;
+   line-height: 42px;
+
+   border-bottom-width: 4px;
+   border-bottom-style: inset;
+   border-bottom-color: #979797;
+  }
+
+  table
+  {
+    font-size: 29px;
+    line-height: 34px;
+    
+    margin-left: 100px;
+    margin-top: 65px;
+    width: 600px;
+    text-align: center;
+
+    border-bottom-width: 4px;
+   border-bottom-style: inset;
+   border-bottom-color: #979797;
+  }
+thead
+{
+    height: 124px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight:normal;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+th
+{
+    width: 86px;
+}
+tr
+{
+    height: 130px;
+    vertical-align: top;
+}
+
+
+.td17, .td18
+{
+    position: relative; 
+    bottom: 25px;
+    background:#3C82F9;
+    Border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px; 
+}
+
+.categories
+{
+    margin-left: 100px;
+    margin-top: 105px;
+    
+}
+.h1
+{
+    font-size: 26px;
+    line-height: 30px;
+}
+.button
+{
+    margin-top: 40px;
+    max-width: 600px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px
+}
+button
+{
+    width: 285px;
+    height: 80px;
+    font-size: 22px;
+    line-height: 80px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border-style: none
+}
+.fin
+{
+    background: #8576ED;
+}
+.manag
+{
+    background: #F39946;
+}
+.desg
+{
+    background: #FF467E;
+}
